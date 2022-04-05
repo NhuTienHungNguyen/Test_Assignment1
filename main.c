@@ -353,7 +353,7 @@ int main(void) {
     else if (option == 7) {
       long student_id;
       
-      printf("Enter the student ID you want to show: ");
+      printf("Enter the student ID you want to show data: ");
 			scanf("%ld", &student_id);
 
       print_student_information(&unit_list, student_id);
