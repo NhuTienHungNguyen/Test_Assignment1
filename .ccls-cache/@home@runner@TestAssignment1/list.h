@@ -14,14 +14,4 @@ typedef struct list {
   ListNodePtr head;
 } UnitList;
 
-/*typedef struct listNode {
-  int unit_code;
-  StudentBST student_list;
-  struct listNode* next;
-} *ListNodePtr;
-
-typedef struct list {
-  ListNodePtr head;
-} UnitList;*/
-
 UnitList new_list();
